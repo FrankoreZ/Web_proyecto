@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/Style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
+
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+
+</head>
+
+<body class="bg-dark">
+    <section>
+        <nav class="navbar navbar-expand-lg navbar-dark p-md-3">
+            <div class="container">
+                <a href="#" class="navbar-brand text-primary ">CinematiCat</a>
+                <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-lable="Toggle Navbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mx-auto"></div>
+                    <ul class="navbar-nav ">
+                        <li class="nav-item">
+                            <a href="Portada.html" class="nav-link activate text-white">Home</a>&nbsp;&nbsp;
+                        </li>
+                        <li class="nav-item">
+                            <a href="Formulario.html" class="nav-link &text-white">Contactanos</a>&nbsp;&nbsp;
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Blog</a>&nbsp;&nbsp;
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Peliculas</a>&nbsp;&nbsp;
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Estrenos</a>&nbsp;&nbsp;
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link text-white">Cartelera</a>&nbsp;&nbsp;
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <main class="container d-flex align-items-center justify-content-center alto-100">
+        <div class="row">
+            <!-- Columna izquierda -->
+            <div class="col-12 col-lg-9 ">
+                <div class="row">
+                    <div class="col-12 col-lg-8 p-2 w-70 ">
+                        <article class="card h-100 bg-secondary">
+                            <div class="card-body">
+                                <div class="mb-3">
+                                    <label for="nombre-text" class="form-label">Nombre</label>
+                                    <input type="nombre" class="form-control" id="nombre-text" placeholder="Ingrese su nombre">
+
+                                </div>
+                                <div class="mb-3 ">
+                                    <label for="url-txt" class="form-label">URL de Tu Imagen</label>
+                                    <span class="input-group-text" id="basic-addon3">https://</span>
+                                    <input type="url" class="form-control" id="url-txt" aria-describedby="basic-addon3">
+
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email-text" class="form-label">Email </label>
+                                    <input type="email" class="form-control" id="email-text" placeholder="name@example.com">
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="txt_fecha">Fecha</label>
+                                    <input type="date" name="txt_fecha" id="txt_fecha">
+
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="rbt_genero">Genero</label><br>
+                                    <input type="radio" name="rbt_genero" id="rbt_genero" value="M">Masculino <br>
+                                    <input type="radio" name="rbt_genero" id="rbt_genero" value="F">Femenino
+
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="Comunas-text" class="form-label">Comunas</label>
+                                    <select class="form-select" id="Comunas-text">
+                                        <option value="1">Santiago Centro</option>
+                                        <option value="2">La Granja</option>
+                                        <option value="3">Macul</option>
+                                        <option value="4">vitacura</option>
+                                        <option value="5">La Reina</option>
+                                    </select>
+
+
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="txa_comentarios">Comentarios </label><br>
+                                    <textarea class="form-select" name="txa_comentarios" id="txa_comentarios" cols="40" rows="5"></textarea>
+                                </div>
+                            </div>
+                            <div class="card-footer">
+                                <div class="d-grid gap-2">
+                                    <button class="btn btn-primary" type="button" id="registrar-btn">Enviar</button>
+                                    <button class="btn btn-dark" type="button">Borrar</button>
+                                </div>
+                            </div>
+
+
+
+
+
+                        </article>
+                    </div>
+
+
+
+                    <!-- columna derecha Recomendadas-->
+                    <div class="col-12 col-lg-4 p-2 w-40">
+                        <article class="card h-100 bg-secondary">
+                            <div class="card-body">
+                                <div class="d-flex mb-3">
+
+                                </div>
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+
+    <footer class="bg-black text-white d-flex ">
+        <div class="container">
+            <nav class="row">
+                <a href="# " class="col-4 text-reset d-flex align-item-center ">
+                    <h2 class="text-primary ">CinematiCat</h2>
+
+                </a>
+                <!-- Datos de la empreza y el boton de empezada -->
+                <ul class="col-4 list-unstyled ">
+                    <li class="font-weight-bolt text-uppercase ">FrankoreX.Ltda</li>
+                    <li><a href="# " class="text-reset ">Volver Arriba</a></li>
+                </ul>
+
+                <!-- Redes Sociales -->
+                <ul class="col-4 list-unstyled ">
+                    <li class="font-weight-bolt text-uppercase align-item-center ">Redes Sociales</li>
+                    <li class="d-flex justify-content-between ">
+
+                        <a href="https://www.instagram.com/ " class="text-reset ">
+                            <i class="fa-brands fa-instagram "></i>
+
+                        </a>
+
+                        <a href="https://www.facebook.com/ " class="text-reset ">
+                            <i class="fa-brands fa-facebook "></i>
+                        </a>
+
+                        <a href="https://www.twitch.tv/ " class="text-reset ">
+                            <i class="fa-brands fa-twitch "></i>
+                        </a>
+
+                        <a href="https://twitter.com/home?lang=es " class="text-reset ">
+                            <i class="fa-brands fa-twitter "></i>
+                        </a>
+
+
+                        <a href="https://www.youtube.com/ " class="text-reset ">
+                            <i class="fa-brands fa-youtube "></i>
+                        </a>
+
+                    </li>
+
+                </ul>
+            </nav>
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        var nav = document.querySelector('nav');
+
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 100) {
+                nav.classList.add('bg-dark', 'shadow');
+            } else {
+                nav.classList.remove('bg-dark', 'shadow');
+            }
+        });
+    </script>
+</body>
+
+</html>

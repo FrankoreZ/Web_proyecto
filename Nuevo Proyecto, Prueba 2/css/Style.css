@@ -1,0 +1,20 @@
+* {
+    width: auto;
+    height: auto;
+}
+
+body h1 {
+    font-family: 'Macondo', cursive;
+    text-shadow: slateblue;
+}
+
+a {
+    font-family: 'Macondo', cursive;
+    font-size: medium;
+}
+
+.Items {
+    margin: 1em;
+    padding: 1em;
+    float: left;
+}
